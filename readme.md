@@ -1,5 +1,5 @@
 # Notes
-
+This is a project so i can learn Flask
 ## References
 * Ref: https://www.youtube.com/watch?v=Z1RJmh_OqeA
 ### Cmd codes used in this project
