@@ -8,3 +8,5 @@
 * source env/bin/activate (activate env on linux distributions)
 * env\Scripts\activate (activate env on windows)
 * pip install flask flask-sqlalchemy
+
+* python app.py (run)
