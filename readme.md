@@ -7,3 +7,4 @@
 * virtualenv env
 * source env/bin/activate (activate env on linux distributions)
 * env\Scripts\activate (activate env on windows)
+* pip install flask flask-sqlalchemy
