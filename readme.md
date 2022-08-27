@@ -1,9 +1,12 @@
 # Notes
 This is a project so i can learn Flask
 ## References
-* Ref: https://www.youtube.com/watch?v=Z1RJmh_OqeA
+* https://www.youtube.com/watch?v=Z1RJmh_OqeA
+* https://realpython.com/flask-by-example-part-2-postgres-sqlalchemy-and-alembic/
 ### Cmd codes used in this project
 * pip install virtualenv
+* pip install Flask-Migrate
+* pip install psycopg2
 * virtualenv env
 * source env/bin/activate (activate env on linux distributions)
 * env\Scripts\activate (activate env on windows)
@@ -14,3 +17,8 @@ This is a project so i can learn Flask
 #### Tips
 * {% %} "this are for 'if, for, while' statements"
 * {{}} "Thing like printed strings"
+  
+##### Config your database
+* app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://'username':'password'@localhost/'db name''
+* app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+* db = SQLAlchemy(app)
