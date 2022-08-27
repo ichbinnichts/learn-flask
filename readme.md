@@ -10,3 +10,7 @@ This is a project so i can learn Flask
 * pip install flask flask-sqlalchemy
 
 * python app.py (run)
+
+#### Tips
+* {% %} "this are for 'if, for, while' statements"
+* {{}} "Thing like printed strings"
