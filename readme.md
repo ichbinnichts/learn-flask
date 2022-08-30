@@ -22,3 +22,8 @@ This is a project so i can learn Flask
 * app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://'username':'password'@localhost/'db name''
 * app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 * db = SQLAlchemy(app)
+
+###### DB Shell commands
+* python
+* from app import db
+* db.create_all()
